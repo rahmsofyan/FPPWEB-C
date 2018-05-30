@@ -6,53 +6,54 @@
 <br>4.Maidina Choirun Nisa 5116100176
 
 
-Final Project Pemrograman Web tahun ajaran 2017/2018
+- Final Project Pemrograman Web tahun ajaran 2017/2018
 
+- Tujuan 
 dalam final project kali ini kami mengambil tema perpustakaan,
 tujuan dari website ini adalah untuk memudahkan anggota dalam mengakses 
-informasi tentang buku yang ingin dipinjam
+informasi tentang buku yang ingin dipinjam.
 
-deskripsi Aplikasi 
+- Deskripsi Aplikasi 
 
 web perpustakaan yang kami buat ini adalah aplikasi berbasis web sederhana 
 dengan beberapa fitur yang diharapkan memudahkan dalam mengakses informasi, 
 baik memudahkan dari sisi anggota maupun pegawai perpustakaan itu sendiri.
 
-dalam website kali ini kami membuat beberapa menu yang berbeda antara 
+-dalam website kali ini kami membuat beberapa menu yang berbeda antara 
 pengunjung, anggota dan pegawai 
 
-untuk pengunjung dalam website kami dapat mengakses daftar buku yang tersedia perpustakaan 
-untuk anggota dapat mengakses menu sebagai berikut :
-	- buku yang tersedia dalam perpustakaan
-	- jumlah judul buku berdasarkan kategori
-	- rekomendasi buku yang sering dipinjam
-	- cetak kartu anggota
-	- cetak transaksi buku yang dipinjam
-untuk pegawai dapat mengakses menu sebagai berikut :
-	- mengakses semua database yang ada dalam website ini 
+- untuk pengunjung dalam website kami dapat mengakses daftar buku yang tersedia perpustakaan 
+- untuk anggota dapat mengakses menu sebagai berikut :
+	* buku yang tersedia dalam perpustakaan
+	* jumlah judul buku berdasarkan kategori
+	* rekomendasi buku yang sering dipinjam
+	* cetak kartu anggota
+	* cetak transaksi buku yang dipinjam
+- untuk pegawai dapat mengakses menu sebagai berikut :
+	* mengakses semua database yang ada dalam website ini 
 	  seperti anggota, transaksi peminjaman, pegawai, dan buku 
-	- mengakses halaman keanggotan untuk menghapus anggota 
-	- mengakses database denda untuk menghitung pendapatan dari denda, 
+	* mengakses halaman keanggotan untuk menghapus anggota 
+	* mengakses database denda untuk menghitung pendapatan dari denda, 
 	  serta menambahkan denda untuk anggota yang telat mengembalikan
-	- halaman register untuk menambahkan anggota baru, buku baru dan transaksi peminjaman
-	- halaman menampilkan anggota yang telah meminjam buku 
+	* halaman register untuk menambahkan anggota baru, buku baru dan transaksi peminjaman
+	* halaman menampilkan anggota yang telah meminjam buku 
 
 
 desain database
 
-database dalam website kali ini memerlukan beberapa tabel pendukung yaitu : 
- . anggota 
- . buku
- . denda
- . kategori
- . pegawai
- . peminjaman
- . penerbit
- . pengunjung
- . user anggota
- . user pegawai
+- database dalam website kali ini memerlukan beberapa tabel pendukung yaitu : 
+ * anggota 
+ * buku
+ * denda
+ * kategori
+ * pegawai
+ * peminjaman
+ * penerbit
+ * pengunjung
+ * user anggota
+ * user pegawai
 
-nampilkan pdm
+- nampilkan pdm
 
 kodingan dari website ini bisa diakses via github 
 
