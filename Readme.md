@@ -60,7 +60,5 @@ kodingan dari website ini bisa diakses via github
 githubnya
 https://github.com/rahmsofyan/FPPWEB-C
 
-video demo :
-video kodingan
+video Demo :
 
-video penjelasan web
