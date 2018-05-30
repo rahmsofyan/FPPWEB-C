@@ -39,9 +39,9 @@ pengunjung, anggota dan pegawai </h2>
 	* halaman menampilkan anggota yang telah meminjam buku 
 
 
-desain database
+- Desain database
 
-- database dalam website kali ini memerlukan beberapa tabel pendukung yaitu : 
+database dalam website kali ini memerlukan beberapa tabel pendukung yaitu : 
  * anggota 
  * buku
  * denda
