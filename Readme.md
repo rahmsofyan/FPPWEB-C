@@ -6,21 +6,21 @@
 <br>4.Maidina Choirun Nisa 5116100176
 
 
-- Final Project Pemrograman Web tahun ajaran 2017/2018
+<h1>inal Project Pemrograman Web tahun ajaran 2017/2018</h1>
 
-- Tujuan 
+<h2> Tujuan </h2>
 dalam final project kali ini kami mengambil tema perpustakaan,
 tujuan dari website ini adalah untuk memudahkan anggota dalam mengakses 
 informasi tentang buku yang ingin dipinjam.
 
-- Deskripsi Aplikasi 
+<h2> Deskripsi Aplikasi </h2>
 
 web perpustakaan yang kami buat ini adalah aplikasi berbasis web sederhana 
 dengan beberapa fitur yang diharapkan memudahkan dalam mengakses informasi, 
 baik memudahkan dari sisi anggota maupun pegawai perpustakaan itu sendiri.
 
--dalam website kali ini kami membuat beberapa menu yang berbeda antara 
-pengunjung, anggota dan pegawai 
+<h2>Dalam website kali ini kami membuat beberapa menu yang berbeda antara 
+pengunjung, anggota dan pegawai </h2>
 
 - untuk pengunjung dalam website kami dapat mengakses daftar buku yang tersedia perpustakaan 
 - untuk anggota dapat mengakses menu sebagai berikut :
