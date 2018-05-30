@@ -13,7 +13,6 @@ if (isset($_POST['submit']))
 		// Define $username and $password
 		$username=$_POST['username'];
 		$password=$_POST['password'];
-		echo "<script>window.alert(\"$username\"); </script>";
 		// Establishing Connection with Server by passing server_name, user_id and password as a parameter
 		$connection = mysqli_connect("localhost", "root", "");
 		$db = mysqli_select_db($connection,"prak1");
@@ -50,35 +49,6 @@ else if (isset($_POST['register']))
 			$error = "password tidak sama";
 			echo "<script>window.alert(\"$error\"); </script>";
 		}
-	else
-	{
-		// Establishing Connection with Server by passing server_name, user_id and password as a parameter
-		$connection = mysqli_connect("localhost", "root", "");
-		$db = mysqli_select_db($connection,"prak1");
-		// SQL query to fetch information of registerd users and finds user match.
-		$samepasswd= mysqli_query($connection,"select * from user where user_username='$username'");
-		$rowspasswd = mysqli_num_rows($samepasswd);
-		if ($rowspasswd >= 1)
-		{
-			$error = "Username telah digunakan";
-			echo "<script>window.alert(\"$error\"); </script>";
-		}
-		else if(strlen($username)>30)
-		{
-			$error = "Username terlalu panjang";
-			echo "<script>window.alert(\"$error\"); </script>";
-		}
-		else if(strlen($password)>12)
-		{
-			$error = "Password terlalu panjang";
-			echo "<script>window.alert(\"$error\"); </script>";
-		}
-		else
-		{
-			mysqli_query($connection,"insert into user (user_username,user_password) values('$username',md5($password))");
-			header("location: index.php");
-		}
-		mysqli_close($connection); // Closing Connection
-	}
+
 }
 ?>
