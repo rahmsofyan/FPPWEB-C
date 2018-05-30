@@ -6,7 +6,7 @@
 <br>4.Maidina Choirun Nisa 5116100176
 
 
-<h1>inal Project Pemrograman Web tahun ajaran 2017/2018</h1>
+<h1>Final Project Pemrograman Web tahun ajaran 2017/2018</h1>
 
 <h2> Tujuan </h2>
 dalam final project kali ini kami mengambil tema perpustakaan,
