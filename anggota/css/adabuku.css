@@ -1,0 +1,13 @@
+.zoom : hover
+{
+  display: block;
+  transform:scale(1.5)!important;
+  transition: 2s;
+}
+
+.zoom
+{
+  display: block;
+  transform:scale(1);
+  transition: 2s;
+}

@@ -1,0 +1,44 @@
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.bg
+{
+    background:linear-gradient(to right,rgb(8, 48, 128),rgb(73, 7, 107));
+  -webkit-animation:Gradient 3s ease infinite alternate-reverse;
+  -moz-animation:Gradient 3s ease infinite alternate-reverse;
+  animation:Gradient 3s ease infinite alternate-reverse;
+  background-size:300% 300%;
+}

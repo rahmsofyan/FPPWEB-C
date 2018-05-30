@@ -1,0 +1,49 @@
+@font-face {
+  font-family: futura;
+  src:url("/assets/font/futura.woff");
+}
+
+.content-perpus h1
+{
+  font-family: futura;
+  color: white;
+  font-size:100px;
+
+  font-weight: lighter;
+  text-align: center;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    height:100px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    height:100px;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+.conten-perpus
+{
+  padding-bottom:300px;
+}
