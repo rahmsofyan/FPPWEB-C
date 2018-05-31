@@ -62,3 +62,15 @@ https://github.com/rahmsofyan/FPPWEB-C
 
 video Demo :
 garuk.in/FPPWEBCKELOMPOK1
+
+Login user
+Anggota
+username : AP0001
+password : dadada123
+
+Pegawai 
+uasername : UP0001
+password : dadada123
+
+username : AP00xx / UP00xx
+password : dadada[122+xx]
